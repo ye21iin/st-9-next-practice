@@ -42,7 +42,7 @@ export default function RootLayout({
               <Link href="/blogs">Blogs(SSR)</Link>
             </li>
             <li>
-              <Link href="/todolist">hrefdoList(CSR)</Link>
+              <Link href="/todolist">todoList(CSR)</Link>
             </li>
           </ul>
         </nav>
