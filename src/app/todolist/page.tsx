@@ -1,7 +1,7 @@
 import TodoForm from "../components/TodoForm";
-import TodoItem from "../components/TodoItem";
+import TodoList from "../components/TodoList";
 
-export default function TodoList() {
+export default function TodoListPage() {
   return (
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
@@ -18,7 +18,7 @@ export default function TodoList() {
         </p>
       </div>
       <TodoForm />
-      <TodoItem />
+      <TodoList />
     </div>
   );
 }
