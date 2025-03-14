@@ -17,9 +17,9 @@ export default async function News() {
   if (!news) return;
 
   return (
-    <div>
-      <h2>최신 기술 뉴스</h2>
-      <div>
+    <div className="news-container">
+      <h2 className="news-header">최신 기술 뉴스</h2>
+      <div className="description-text">
         <p>
           ISR 페이지는 빌드 시점에 데이터를 미리 가져와서 캐싱 후, 사용자 요청
           시 캐싱해둔 데이터로 페이지를 렌더링하는 방식입니다. 유효시간이 지나면
