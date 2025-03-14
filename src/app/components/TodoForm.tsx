@@ -3,7 +3,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import Error from "next/error";
 import { useState } from "react";
 
-type TodoType = {
+export type TodoType = {
   id: string;
   title: string;
   contents: string;
